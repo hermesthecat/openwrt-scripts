@@ -32,5 +32,9 @@ wget --no-check-certificate -O /tmp/luci-app-temp-status_0.3-5_all.ipk https://g
 opkg install /tmp/luci-app-temp-status_0.3-5_all.ipk
 rm /tmp/luci-app-temp-status_0.3-5_all.ipk
 
+wget --no-check-certificate -O /tmp/luci-app-cloudflarespeedtest_1.4.6_all.ipk https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest/releases/download/v1.4.6/luci-app-cloudflarespeedtest_1.4.6_all.ipk
+opkg install /tmp/luci-app-cloudflarespeedtest_1.4.6_all.ipk
+rm /tmp/luci-app-cloudflarespeedtest_1.4.6_all.ipk
+
 /etc/init.d/rpcd restart
 
