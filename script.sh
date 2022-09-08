@@ -10,7 +10,7 @@ wget --no-check-certificate -O /tmp/luci-app-cpu-status_0.4-1_all.ipk https://gi
 opkg install /tmp/luci-app-cpu-status_0.4-1_all.ipk
 rm /tmp/luci-app-cpu-status_0.4-1_all.ipk
 
-wget --no-check-certificate -O /tmp/internet-detector_0.5-0_all.ipk https://github.com/gSpotx2f/packages-openwrt/raw/master/current/internet-detector_0.5-0_all.ipk
+wget --no-check-certificate -O /tmp/internet-detector_0.5-0_all.ipk https://github.com/gSpotx2f/packages-openwrt/raw/master/current/internet-detector_0.6-0_all.ipk
 opkg install /tmp/internet-detector_0.5-0_all.ipk
 rm /tmp/internet-detector_0.5-0_all.ipk
 /etc/init.d/internet-detector start
