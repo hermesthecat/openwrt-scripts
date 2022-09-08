@@ -16,11 +16,11 @@ rm /tmp/internet-detector_0.5-0_all.ipk
 /etc/init.d/internet-detector start
 /etc/init.d/internet-detector enable
 
-wget --no-check-certificate -O /tmp/luci-app-internet-detector_0.5-1_all.ipk https://github.com/gSpotx2f/packages-openwrt/raw/master/current/luci-app-internet-detector_0.5-1_all.ipk
+wget --no-check-certificate -O /tmp/luci-app-internet-detector_0.5-1_all.ipk https://github.com/gSpotx2f/packages-openwrt/raw/master/current/luci-app-internet-detector_0.6-0_all.ipk
 opkg install /tmp/luci-app-internet-detector_0.5-1_all.ipk
 rm /tmp/luci-app-internet-detector_0.5-1_all.ipk
 
-wget --no-check-certificate -O /tmp/luci-app-log_0.5-1_all.ipk https://github.com/gSpotx2f/packages-openwrt/raw/master/current/luci-app-log_0.5-1_all.ipk
+wget --no-check-certificate -O /tmp/luci-app-log_0.5-1_all.ipk https://github.com/gSpotx2f/packages-openwrt/raw/master/current/luci-app-log_0.6-0_all.ipk
 opkg install /tmp/luci-app-log_0.5-1_all.ipk
 rm /tmp/luci-app-log_0.5-1_all.ipk
 
